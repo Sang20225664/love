@@ -126,19 +126,48 @@ function createFloatingParticles() {
     }
 }
 
-// 5. Polaroid Photo Slider (Manual navigation)
+// 5. Polaroid Photo Slider (Auto-play after Unlock)
+let autoSlideTimer = null;
+
 function initGallery() {
     renderPhoto(0);
 
     document.getElementById("next-photo-btn").addEventListener("click", () => {
         currentPhotoIndex = (currentPhotoIndex + 1) % CONFIG.photos.length;
         renderPhoto(currentPhotoIndex);
+        startAutoSlide();
     });
 
     document.getElementById("prev-photo-btn").addEventListener("click", () => {
         currentPhotoIndex = (currentPhotoIndex - 1 + CONFIG.photos.length) % CONFIG.photos.length;
         renderPhoto(currentPhotoIndex);
+        startAutoSlide();
     });
+}
+
+function unlockGallery() {
+    const overlay = document.getElementById("gallery-blur-overlay");
+    if (overlay) {
+        overlay.classList.add("unlocked");
+    }
+    currentPhotoIndex = 0;
+    renderPhoto(0);
+    startAutoSlide();
+}
+
+function startAutoSlide() {
+    stopAutoSlide();
+    autoSlideTimer = setInterval(() => {
+        currentPhotoIndex = (currentPhotoIndex + 1) % CONFIG.photos.length;
+        renderPhoto(currentPhotoIndex);
+    }, 3000);
+}
+
+function stopAutoSlide() {
+    if (autoSlideTimer) {
+        clearInterval(autoSlideTimer);
+        autoSlideTimer = null;
+    }
 }
 
 function renderPhoto(index) {

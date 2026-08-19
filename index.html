@@ -57,13 +57,20 @@
             <p class="hero-subtext">Chuyến xe kỷ niệm của chúng mình bắt đầu từ đây...</p>
         </div>
 
-        <!-- 2. PHOTO GALLERY (POLAROID CAROUSEL) -->
-        <div class="section">
+        <!-- 2. PHOTO GALLERY (POLAROID CAROUSEL WITH BLUR OVERLAY) -->
+        <div class="section relative">
+            <!-- Blur Overlay to prevent auto-slide from being missed -->
+            <div class="polaroid-blur-overlay" id="gallery-blur-overlay">
+                <button class="unlock-btn" onclick="unlockGallery()">
+                    <i class="fa-solid fa-wand-magic-sparkles mr-2"></i>Mở Xem Hành Trình Kỷ Niệm 📸✨
+                </button>
+            </div>
+
             <h2 class="section-title">
                 <i class="fa-solid fa-camera-retro"></i>
                 Hành Trình Kỷ Niệm
             </h2>
-            <p class="text-center text-xs text-rose-500 font-semibold mb-4 animate-pulse">👉 Bấm nút ❯ để mở xem từng khoảnh khắc nhé 💖</p>
+            <p class="text-center text-xs text-rose-400 mb-4">Ghi dấu những khoảnh khắc đẹp nhất của 2 đứa mình</p>
             
             <div class="polaroid-container">
                 <div class="polaroid-card" id="polaroid-card">
