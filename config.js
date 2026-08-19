@@ -77,7 +77,7 @@ const CONFIG = {
     ],
 
     // 5. VIDEO CAPCUT / YOUTUBE (Tùy chọn)
-    videoUrl: "images/1JVQPDF9J_8K52VS.mp4",
+    videoUrl: null,
 
     // 6. BỨC THƯ TÌNH (Gửi riêng cho Quỳnh Su tại Thủy Cung Lotte Tây Hồ)
     loveLetter: [
