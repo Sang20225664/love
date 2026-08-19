@@ -5,7 +5,7 @@
 const CONFIG = {
     // 1. THÔNG TIN CÁ NHÂN
     crushName: "Quỳnh Su", // Tên hoặc biệt danh của crush
-    yourName: "Sangg - siu bạn thân của cậu đang chờ được lên chức",
+    yourName: "Sangg - siu bạn thân của cậu đang chờ được lên chức =)))",
     
     // 2. NHẠC NỀN (Bài hát: Em Đánh Rơi Người Yêu - Andiez ft. AMEE)
     // Tải file mp3 bài "Em Đánh Rơi Người Yêu" thả vào thư mục music/em-danh-roi-nguoi-yeu.mp3
