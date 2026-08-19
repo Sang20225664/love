@@ -106,14 +106,23 @@
             <div class="video-container" id="video-wrapper"></div>
         </div>
 
-        <!-- 4. HANDWRITTEN LOVE LETTER SECTION -->
-        <div class="section">
+        <!-- 4. HANDWRITTEN LOVE LETTER SECTION (LOCKED UNTIL ALL PHOTOS VIEWED) -->
+        <div class="section relative">
+            <!-- Lock Overlay for Love Letter -->
+            <div class="letter-blur-overlay" id="letter-blur-overlay">
+                <div class="lock-card">
+                    <div class="text-3xl mb-2 animate-bounce">🔒💌</div>
+                    <div class="font-bold text-rose-500 text-sm">Bức Thư Đang Đóng Khóa</div>
+                    <p class="text-xs text-gray-500 mt-1">Hãy lướt xem trọn vẹn Album Kỷ Niệm phía trên để mở thư nhé ✨</p>
+                </div>
+            </div>
+
             <h2 class="section-title">
                 <i class="fa-solid fa-envelope-open-text"></i>
                 Đôi Lời Từ Trái Tim
             </h2>
             <div class="letter-box" id="love-letter-container">
-                <!-- Typed automatically via script.js -->
+                <!-- Rendered automatically via script.js -->
             </div>
         </div>
 

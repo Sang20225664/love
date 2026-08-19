@@ -202,8 +202,23 @@ function renderPhoto(index) {
         card.style.transform = "scale(1) rotate(-2deg)";
         card.style.opacity = "1";
 
+        // Unlock love letter when reached the last photo of the journey
+        if (index === CONFIG.photos.length - 1) {
+            unlockLoveLetter();
+        }
+
         updateDots(index);
     }, 200);
+}
+
+function unlockLoveLetter() {
+    const letterOverlay = document.getElementById("letter-blur-overlay");
+    if (letterOverlay && !letterOverlay.classList.contains("unlocked")) {
+        letterOverlay.classList.add("unlocked");
+        if (typeof confetti === "function") {
+            confetti({ particleCount: 50, spread: 60, origin: { y: 0.8 } });
+        }
+    }
 }
 
 function updateDots(index) {
