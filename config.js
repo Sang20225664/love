@@ -52,8 +52,8 @@ const CONFIG = {
     // 6. BỨC THƯ TÌNH (Gửi riêng cho Quỳnh Su tại Thủy Cung Lotte Tây Hồ)
     loveLetter: [
         "Chào Quỳnh Su - cô gái tuyệt vời nhất trong lòng tớ... ✨",
-        "Thế là đã hơn 30 ngày trôi qua kể từ ngày hai đứa mình bắt đầu những tin nhắn trò chuyện thân thiết đầu tiên.",
-        "Hơn 1 tháng tuy không quá dài, nhưng đủ để mỗi ngày có Quỳnh Su xuất hiện đều trở nên thật đặc biệt và tràn ngập niềm vui.",
+        "Thế là tròn 1 tháng kể từ lúc mình bắt đầu trò chuyện với nhau.",
+        "1 tháng tuy không quá dài, nhưng đủ để mỗi ngày có Quỳnh Su xuất hiện đều trở nên thật đặc biệt và tràn ngập niềm vui.",
         "Quỳnh Su từng bảo chưa từng yêu ai thuộc cung Nước bao giờ...",
         "Hôm nay, hãy để nơi chúng mình hẹn hò lần đầu tiên - ngay tại Thủy cung Lotte Tây Hồ lung linh này, chứng kiến tình yêu bắt đầu nảy nở giữa hai đứa mình.",
         "Quỳnh Su làm bạn gái tớ nhé? ❤️"
@@ -67,7 +67,7 @@ const CONFIG = {
         noDodgeMessages: [
             "Ơ kìa Quỳnh Su, đừng ấn nút này chứ! 🥺",
             "Nỡ lòng nào từ chối tớ sao Quỳnh Su? 💔",
-            "Hơn 30 ngày rồi mà, bấm nút kia đi! 😜",
+            "Tròn 1 tháng rồi mà, bấm nút kia đi! 😜",
             "Bắt được tớ thì mới được từ chối nhá! 🏃‍♂️",
             "Thôi mà, đồng ý đi màaa~ 💖"
         ],
