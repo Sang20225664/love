@@ -126,19 +126,39 @@ function createFloatingParticles() {
     }
 }
 
-// 5. Polaroid Photo Slider
+// 5. Polaroid Photo Slider (Auto-play every 3s)
+let autoSlideTimer = null;
+
 function initGallery() {
     renderPhoto(0);
+    startAutoSlide();
 
     document.getElementById("next-photo-btn").addEventListener("click", () => {
         currentPhotoIndex = (currentPhotoIndex + 1) % CONFIG.photos.length;
         renderPhoto(currentPhotoIndex);
+        startAutoSlide(); // Reset 3s timer on manual click
     });
 
     document.getElementById("prev-photo-btn").addEventListener("click", () => {
         currentPhotoIndex = (currentPhotoIndex - 1 + CONFIG.photos.length) % CONFIG.photos.length;
         renderPhoto(currentPhotoIndex);
+        startAutoSlide(); // Reset 3s timer on manual click
     });
+}
+
+function startAutoSlide() {
+    stopAutoSlide();
+    autoSlideTimer = setInterval(() => {
+        currentPhotoIndex = (currentPhotoIndex + 1) % CONFIG.photos.length;
+        renderPhoto(currentPhotoIndex);
+    }, 3000);
+}
+
+function stopAutoSlide() {
+    if (autoSlideTimer) {
+        clearInterval(autoSlideTimer);
+        autoSlideTimer = null;
+    }
 }
 
 function renderPhoto(index) {
@@ -186,6 +206,7 @@ function updateDots(index) {
         dot.addEventListener("click", () => {
             currentPhotoIndex = i;
             renderPhoto(i);
+            startAutoSlide(); // Reset 3s timer on manual dot click
         });
         dotsContainer.appendChild(dot);
     });

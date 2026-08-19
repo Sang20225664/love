@@ -65,7 +65,7 @@ const CONFIG = {
     ],
 
     // 5. VIDEO CAPCUT / YOUTUBE (Tùy chọn)
-    videoUrl: null, // Ví dụ: "images/kyniem.mp4" hoặc link youtube
+    videoUrl: "images/1JVQPDF9J_8K52VS.mp4",
 
     // 6. BỨC THƯ TÌNH (Gửi riêng cho Quỳnh Su tại Thủy Cung Lotte Tây Hồ)
     loveLetter: [
