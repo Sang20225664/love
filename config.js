@@ -46,12 +46,18 @@ const CONFIG = {
         },
         {
             url: "images/photo5.jpg",
-            caption: "Ảnh Photobooth Đầu Tiên Chụp Cùng Nhau 📸✨",
+            caption: "Những Khoảnh Khắc Bên Nhau ☕✨",
             date: "",
             desc: ""
         },
         {
             url: "images/photo6.jpg",
+            caption: "Ảnh Photobooth Đầu Tiên Chụp Cùng Nhau 📸✨",
+            date: "",
+            desc: ""
+        },
+        {
+            url: "images/photo7.jpg",
             caption: "Chúng Mình Đẹp Đôi Ghê 🥰✨",
             date: "",
             desc: ""
