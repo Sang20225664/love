@@ -22,15 +22,15 @@ const CONFIG = {
     photos: [
         {
             url: "images/photo1.jpg",
-            caption: "Hẹn Hò Lần Đầu Tại Lotte Tây Hồ 🌊✨",
-            date: "Thủy Cung Lotte Tây Hồ",
-            desc: "Nơi bắt đầu những kỷ niệm đầu tiên và khoảnh khắc đáng nhớ của 2 đứa mình..."
+            caption: "Bức Ảnh Đầu Tiên Gửi Nhau 📸💕",
+            date: "Lần đầu ngượng ngùng",
+            desc: "Bức ảnh selfie đầu tiên hai đứa ngượng ngùng chụp gửi cho nhau, khởi đầu cho 1 tháng trò chuyện ngọt ngào..."
         },
         {
             url: "images/photo2.jpg",
-            caption: "Hơn 30 Ngày Bên Nhau 🗓️",
-            date: "Hơn 1 tháng trò chuyện",
-            desc: "Những câu chuyện đêm muộn ngọt ngào và sự ấm áp khi ở bên Quỳnh Su."
+            caption: "Hẹn Hò Lần Đầu Tại Lotte Tây Hồ 🌊✨",
+            date: "Thủy Cung Lotte Tây Hồ",
+            desc: "Nơi bắt đầu những kỷ niệm và khoảnh khắc đáng nhớ nhất của 2 đứa mình..."
         },
         {
             url: "images/photo3.jpg",
