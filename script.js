@@ -15,10 +15,13 @@ document.addEventListener("DOMContentLoaded", () => {
     // 4. INITIALIZE GALLERY
     initGallery();
 
-    // 5. INITIALIZE SCROLL ANIMATIONS & INTERACTIVITY
+    // 5. INITIALIZE LOVE LETTER
+    startLoveLetterTyping();
+
+    // 6. INITIALIZE SCROLL ANIMATIONS & INTERACTIVITY
     initScrollObserver();
 
-    // 6. INITIALIZE PROPOSAL BUTTONS (DODGING & ACCEPT)
+    // 7. INITIALIZE PROPOSAL BUTTONS (DODGING & ACCEPT)
     initProposalButtons();
 });
 
@@ -179,39 +182,18 @@ function updateDots(index) {
     });
 }
 
-// 6. Handwritten Love Letter Typing Effect
-let letterStarted = false;
+// 6. Handwritten Love Letter Display (Rendered in full immediately)
 function startLoveLetterTyping() {
-    if (letterStarted) return;
-    letterStarted = true;
-
     const letterContainer = document.getElementById("love-letter-container");
+    if (!letterContainer) return;
     letterContainer.innerHTML = "";
 
-    let pIndex = 0;
-    function typeNextParagraph() {
-        if (pIndex >= CONFIG.loveLetter.length) return;
-
+    CONFIG.loveLetter.forEach(text => {
         const p = document.createElement("div");
         p.className = "letter-paragraph";
+        p.textContent = text;
         letterContainer.appendChild(p);
-
-        const text = CONFIG.loveLetter[pIndex];
-        let charIndex = 0;
-
-        const timer = setInterval(() => {
-            if (charIndex < text.length) {
-                p.textContent += text.charAt(charIndex);
-                charIndex++;
-            } else {
-                clearInterval(timer);
-                pIndex++;
-                setTimeout(typeNextParagraph, 600);
-            }
-        }, 40);
-    }
-
-    typeNextParagraph();
+    });
 }
 
 // 7. Proposal Section: Smart Dodging "No" Button & Telegram Notification
