@@ -14,8 +14,8 @@ const CONFIG = {
     // 3. THÔNG BÁO TELEGRAM (Nhận tin nhắn tức thì về điện thoại khi Crush ấn "Đồng Ý")
     telegram: {
         enabled: true,
-        botToken: "",  // Điền Bot Token từ @BotFather
-        chatId: "",    // Điền Chat ID của bạn
+        botToken: "8621960139:AAFt9ToVw5ReJLq6cZnQ7MD6BXJiZP9VYZo",
+        chatId: "5241521505",
         message: "🎉 TIN VUI CỰC HOT! Quỳnh Su vừa bấm ĐỒNG Ý làm bạn gái của cậu rồi! Mang hoa ra xuất hiện bất ngờ ngay thôi! 💐❤️✨"
     },
 
