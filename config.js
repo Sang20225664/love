@@ -63,7 +63,7 @@ const CONFIG = {
     proposal: {
         title: "Quỳnh Su làm bạn gái tớ nhé? ❤️",
         yesBtn: "Tớ đồng ý! 🥰",
-        noBtn: "Không đời nào 😜",
+        noBtn: "Không thể từ chối 😜",
         noDodgeMessages: [
             "Ơ kìa Quỳnh Su, đừng ấn nút này chứ! 🥺",
             "Nỡ lòng nào từ chối tớ sao Quỳnh Su? 💔",
