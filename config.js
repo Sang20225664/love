@@ -40,8 +40,8 @@ const CONFIG = {
         },
         {
             url: "images/photo4.jpg",
-            caption: "Hành Trình Mới Bắt Đầu 💐",
-            date: "",
+            caption: "Cùng Nhau Làm Pizza 🍕✨",
+            date: "Kỷ niệm ngọt ngào",
             desc: ""
         }
     ],
