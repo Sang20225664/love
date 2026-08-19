@@ -23,8 +23,8 @@ const CONFIG = {
         {
             url: "images/photo1.jpg",
             caption: "Bức Ảnh Đầu Tiên Gửi Nhau 📸💕",
-            date: "02/08/2026",
-            desc: "Khoảnh khắc selfie ngượng ngùng đầu tiên hai đứa gửi cho nhau ngày 02/08..."
+            date: "",
+            desc: ""
         },
         {
             url: "images/photo2.jpg",
@@ -34,14 +34,14 @@ const CONFIG = {
         },
         {
             url: "images/photo3.jpg",
-            caption: "Chuyện Tình Cung Nước 💧🌊",
-            date: "Xử Nữ & Bọ Cạp",
-            desc: "Quỳnh Su bảo chưa từng yêu ai cung Nước bao giờ, vậy để tớ chứng minh cho Quỳnh Su thấy nhé!"
+            caption: "Những Khoảnh Khắc Bên Nhau 🌊✨",
+            date: "",
+            desc: ""
         },
         {
             url: "images/photo4.jpg",
-            caption: "Cùng Nhau Làm Pizza 🍕✨",
-            date: "Kỷ niệm ngọt ngào",
+            caption: "Chúng Mình Đẹp Đôi Ghê 🥰✨",
+            date: "",
             desc: ""
         }
     ],
