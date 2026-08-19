@@ -7,8 +7,9 @@ const CONFIG = {
     crushName: "Quỳnh Su", // Tên hoặc biệt danh của crush
     yourName: "Chàng Trai Của Cậu",  // Tên của bạn
     
-    // 2. NHẠC NỀN (Bài hát: Nhắn Với Mây Trời - Nhạc trẻ lãng mạn)
-    bgMusic: "music/nhan-voi-may-troi.mp3", 
+    // 2. NHẠC NỀN (Bài hát: Em Đánh Rơi Người Yêu - Andiez ft. AMEE)
+    // Tải file mp3 bài "Em Đánh Rơi Người Yêu" thả vào thư mục music/em-danh-roi-nguoi-yeu.mp3
+    bgMusic: "music/em-danh-roi-nguoi-yeu.mp3", 
     
     // 3. THÔNG BÁO TELEGRAM (Nhận tin nhắn tức thì về điện thoại khi Crush ấn "Đồng Ý")
     telegram: {
