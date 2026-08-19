@@ -28,9 +28,9 @@ const CONFIG = {
         },
         {
             url: "images/photo2.jpg",
-            caption: "Những Lần Đi Chơi Cùng Nhau 🌸",
-            date: "Kỷ niệm bên nhau",
-            desc: "Mỗi khoảnh khắc ở bên Quỳnh Su đều ngập tràn nụ cười và sự ấm áp."
+            caption: "Những Khoảnh Khắc Bên Nhau 🌸",
+            date: "",
+            desc: ""
         },
         {
             url: "images/photo3.jpg",
@@ -41,8 +41,8 @@ const CONFIG = {
         {
             url: "images/photo4.jpg",
             caption: "Hành Trình Mới Bắt Đầu 💐",
-            date: "Kỷ niệm đáng nhớ",
-            desc: "Cảm ơn Quỳnh Su vì đã đến và làm thế giới của tớ trở nên thật rực rỡ!"
+            date: "",
+            desc: ""
         }
     ],
 

@@ -157,9 +157,18 @@ function renderPhoto(index) {
             imgEl.src = `data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="300" height="300" viewBox="0 0 300 300"><rect width="300" height="300" fill="%23ffd1dc"/><text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" font-family="sans-serif" font-size="20" fill="%23ff6b8b">🌸 ${encodeURIComponent(photo.caption)}</text></svg>`;
         };
 
-        document.getElementById("polaroid-title").textContent = photo.caption;
-        document.getElementById("polaroid-date").textContent = photo.date;
-        document.getElementById("polaroid-desc").textContent = photo.desc;
+        const titleEl = document.getElementById("polaroid-title");
+        const dateEl = document.getElementById("polaroid-date");
+        const descEl = document.getElementById("polaroid-desc");
+
+        titleEl.textContent = photo.caption || "";
+        titleEl.style.display = photo.caption ? "block" : "none";
+
+        dateEl.textContent = photo.date || "";
+        dateEl.style.display = photo.date ? "block" : "none";
+
+        descEl.textContent = photo.desc || "";
+        descEl.style.display = photo.desc ? "block" : "none";
 
         card.style.transform = "scale(1) rotate(-2deg)";
         card.style.opacity = "1";
