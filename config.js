@@ -8,7 +8,6 @@ const CONFIG = {
     yourName: "Chàng Trai Của Cậu",  // Tên của bạn
     
     // 2. NHẠC NỀN (Bài hát: Nhắn Với Mây Trời - Nhạc trẻ lãng mạn)
-    // Tải file mp3 bài "Nhắn với mây trời" bỏ vào thư mục music/nhan-voi-may-troi.mp3
     bgMusic: "music/nhan-voi-may-troi.mp3", 
     
     // 3. THÔNG BÁO TELEGRAM (Nhận tin nhắn tức thì về điện thoại khi Crush ấn "Đồng Ý")
@@ -23,40 +22,41 @@ const CONFIG = {
     photos: [
         {
             url: "images/photo1.jpg",
-            caption: "Lần đầu đi chơi cùng Quỳnh Su 🌸",
-            date: "Kỷ niệm đáng nhớ",
-            desc: "Nụ cười của cậu hôm đó làm tim tớ trật một nhịp..."
+            caption: "Cột Mốc 1 Tháng Đặc Biệt 🗓️✨",
+            date: "Tròn 30 ngày trò chuyện",
+            desc: "Tròn 1 tháng kể từ ngày 2 đứa mình bắt đầu những tin nhắn trò chuyện thân thiết đầu tiên..."
         },
         {
             url: "images/photo2.jpg",
-            caption: "Những khoảnh khắc ngốc nghếch 🤪",
+            caption: "Những câu chuyện đêm muộn 🌙",
             date: "Bên nhau nhẹ nhàng",
-            desc: "Ở bên Quỳnh Su, tớ luôn được là chính mình tự nhiên nhất."
+            desc: "Ở bên Quỳnh Su, tớ luôn cảm nhận được sự ấm áp và bình yên nhất."
         },
         {
             url: "images/photo3.jpg",
-            caption: "Chuyến đi tuyệt vời 📸",
-            date: "Kỷ niệm đẹp",
-            desc: "Bầu trời hôm đó rất đẹp, nhưng Quỳnh Su còn đẹp hơn."
+            caption: "Chuyến đi & Khoảnh khắc đẹp 📸",
+            date: "Kỷ niệm đáng nhớ",
+            desc: "Bầu trời hôm đó rất đẹp, nhưng nụ cười của Quỳnh Su còn đẹp hơn."
         },
         {
             url: "images/photo4.jpg",
-            caption: "Cùng nhau ăn ngon 🍦",
-            date: "Nụ cười ngọt ngào",
-            desc: "Cảm ơn Quỳnh Su vì đã luôn đồng hành và sẻ chia cùng tớ."
+            caption: "Cùng nhau chia sẻ niềm vui 🍦",
+            date: "Hành trình phía trước",
+            desc: "Cảm ơn Quỳnh Su vì đã đến và làm 1 tháng qua trở nên thật rực rỡ!"
         }
     ],
 
     // 5. VIDEO CAPCUT / YOUTUBE (Tùy chọn)
     videoUrl: null, // Ví dụ: "images/kyniem.mp4" hoặc link youtube
 
-    // 6. BỨC THƯ TÌNH (Gửi riêng cho Quỳnh Su)
+    // 6. BỨC THƯ TÌNH (Gửi riêng cho Quỳnh Su kỷ niệm 1 tháng)
     loveLetter: [
         "Chào Quỳnh Su - cô gái tuyệt vời nhất trong lòng tớ... ✨",
-        "Từ ngày có Quỳnh Su xuất hiện, mỗi ngày trôi qua với tớ đều trở nên ấm áp và tràn ngập niềm vui.",
-        "Tớ yêu từng nụ cười, từng ánh mắt, yêu cả những khoảnh khắc giản dị nhất khi chúng mình ở bên nhau.",
-        "Tớ đã suy nghĩ rất nhiều và muốn dành cho Quỳnh Su một điều thật đặc biệt...",
-        "Hôm nay, tớ muốn hỏi cậu một câu quan trọng nhất..."
+        "Thế là tròn đúng 1 tháng trôi qua kể từ ngày hai đứa mình bắt đầu những tin nhắn trò chuyện thân thiết đầu tiên.",
+        "30 ngày tuy không quá dài, nhưng đủ để mỗi ngày có Quỳnh Su xuất hiện đều trở nên ấm áp và tràn ngập niềm vui.",
+        "Tớ yêu từng nụ cười, từng câu chuyện đêm muộn, và cả những khoảnh khắc giản dị nhất khi chúng mình ở bên nhau.",
+        "Hôm nay, vào đúng cột mốc 1 tháng vô cùng đặc biệt này, tớ muốn dành cho Quỳnh Su một điều thật chân thành...",
+        "Quỳnh Su làm bạn gái tớ nhé? ❤️"
     ],
 
     // 7. CÂU HỎI TỎ TÌNH & NÚT TƯƠNG TÁC
@@ -67,12 +67,12 @@ const CONFIG = {
         noDodgeMessages: [
             "Ơ kìa Quỳnh Su, đừng ấn nút này chứ! 🥺",
             "Nỡ lòng nào từ chối tớ sao Quỳnh Su? 💔",
-            "Nút này bị hỏng rồi, bấm nút kia đi! 😜",
+            "Tròn 1 tháng rồi mà, bấm nút kia đi! 😜",
             "Bắt được tớ thì mới được từ chối nhá! 🏃‍♂️",
             "Thôi mà, đồng ý đi màaa~ 💖"
         ],
         successTitle: "Yayy! Tớ biết là Quỳnh Su sẽ đồng ý mà! 🥰🎉",
-        successDesc: "Cảm ơn Quỳnh Su vì đã đến và làm thế giới của tớ trở nên rực rỡ hơn. Hãy đợi tớ một chút nhé... 💐✨",
+        successDesc: "Cảm ơn Quỳnh Su vì đã đến và làm tròn 1 tháng qua (và cả hành trình sau này) trở nên tuyệt vời nhất. Hãy đợi tớ một chút nhé... 💐✨",
         messengerLink: ""
     }
 };
