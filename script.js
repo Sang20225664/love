@@ -213,11 +213,17 @@ function renderPhoto(index) {
 
 function unlockLoveLetter() {
     const letterOverlay = document.getElementById("letter-blur-overlay");
+    const proposalOverlay = document.getElementById("proposal-blur-overlay");
+
     if (letterOverlay && !letterOverlay.classList.contains("unlocked")) {
         letterOverlay.classList.add("unlocked");
-        if (typeof confetti === "function") {
-            confetti({ particleCount: 50, spread: 60, origin: { y: 0.8 } });
-        }
+    }
+    if (proposalOverlay && !proposalOverlay.classList.contains("unlocked")) {
+        proposalOverlay.classList.add("unlocked");
+    }
+
+    if (typeof confetti === "function") {
+        confetti({ particleCount: 60, spread: 70, origin: { y: 0.8 } });
     }
 }
 
